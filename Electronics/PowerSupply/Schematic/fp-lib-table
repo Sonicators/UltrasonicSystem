@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Nano)(type KiCad)(uri ${KIPRJMOD}/Libs/Nano.pretty)(options "")(descr Nano_30Pin_DIP))
+  (lib (name AD9833_Board)(type KiCad)(uri ${KIPRJMOD}/Libs/AD9833_Board.pretty)(options "")(descr ""))
+  (lib (name SMPS)(type KiCad)(uri ${KIPRJMOD}/Libs/SMPS.pretty)(options "")(descr ""))
+  (lib (name Relay_EC2)(type KiCad)(uri ${KIPRJMOD}/Libs/Relay_EC2.pretty)(options "")(descr ""))
+)

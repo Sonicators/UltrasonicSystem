@@ -1,0 +1,52 @@
+CL              // Clear the message area
+
+0 = Default setup at poweron
+
+LS [#]          // Load setup (# or current)
+SS [#]          // Save setup (# or current)
+PS [#]          // Print crrent setup
+
+ON              // Turn transducer on
+OFF             // Turn transducer off
+
+FR #            // Set frequency
+PO #            // Set power
+
+MO R            // Mode run
+MO RT #         // Mode run "timed"
+
+MO CF           // Mode constant frequency
+MO CA           // Mode calibrate
+MO WC           // Mode wiper commands
+
+MO I1           // Print input mode
+MO I1 U  [P]    // Mode Input Unused
+MO I1 XC [P]    // Mode Input Xducer control
+MO I1 PO [P]    // Mode Input Xducer push-on/push-off
+MO I1 ES [P]    // Mode input EStop
+
+MO I2 ...       // Same for I2
+
+XX              // Special debug command
+
+MA              // Show the  main screen
+DE              // Show the  debug screen
+EE              // Dump the  EEPROM memory
+ME              // Dump the  RAM memory
+HE              // Show this help panel
+?               // Show this help panel
+
+#ifdef USE_ADJ_CMDS
+U               // "Up"      (coarse freq wiper +1)
+D               // "Down"    (coarse freq wiper -1)
++               //           (fine   freq wiper +1)
+-               //           (fine   freq wiper -1)
+W               // "Wider"   (PWM wiper +1)
+N               // "Narrower (PWM wiper -1)
+#endif
+
+#ifdef USE_WIPER_CMDS
+FCW #           // Frequency Coarse Wiper (set)
+FFW #           // Frequency Fine   Wiper (set)
+PW  #           // Power            Wiper (set)
+#endif

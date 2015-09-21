@@ -1,0 +1,22 @@
+#
+# Most people can't use Aspire files
+#
+*.crv3d
+
+#
+# Don't track the compiled object files
+#   But track the .HEX file, so people can download and upgrade w/o having to recompile.
+#
+Software/Sone/default/*
+!Software/Sone/default/Sone.hex
+
+#
+# Don't track the datasheet PDFs (we don't have license to do so)
+#
+Electronics/PowerSupply/Datasheets/*
+
+#
+# Don't track the Kicad temp files
+#
+*.bak
+*.000

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMPS
+D SMPS transformer
+K SMPS transformer
+$ENDCMP
+#
+#End Doc Library

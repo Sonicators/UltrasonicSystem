@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC1G86
+D Single Xor 2 inputs
+K CMOS XOR
+$ENDCMP
+#
+#End Doc Library
