@@ -1,4 +1,4 @@
-update=9/21/2015 12:38:06 AM
+update=9/22/2015 11:37:09 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -57,11 +57,11 @@ LibName43=Libs/Relay_EE5
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Schematic.net
-UseCmpFile=0
-PadDrill=4
-PadDrillOvalY=4
-PadSizeH=5
-PadSizeV=5
+UseCmpFile=1
+PadDrill=3.79984
+PadDrillOvalY=3.79984
+PadSizeH=3.79984
+PadSizeV=3.79984
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3

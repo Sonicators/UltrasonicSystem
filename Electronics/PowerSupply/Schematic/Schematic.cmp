@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 9/15/2015 12:02:16 AM
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 9/22/2015 8:35:38 PM
 
 BeginCmp
 TimeStamp = /559DECC1/55A82870;
@@ -26,13 +26,6 @@ TimeStamp = /559DE5BB/559E1296;
 Reference = C3;
 ValeurCmp = 4700uF;
 IdModule  = Capacitors_ThroughHole:C_Radial_D18_L36_P7.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /559DE5BB/55ADC675;
-Reference = C4;
-ValeurCmp = 100nF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -424,14 +417,14 @@ BeginCmp
 TimeStamp = /559DE5BB/55A8BD63;
 Reference = Q1;
 ValeurCmp = IRFB3306;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal_LargePads;
+IdModule  = TO-220:TO-220_Neutral123_Horizontal_with_tab_pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /559DE5BB/55A8BDDA;
 Reference = Q2;
 ValeurCmp = IRFB3306;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal_LargePads;
+IdModule  = TO-220:TO-220_Neutral123_Horizontal_with_tab_pad;
 EndCmp
 
 BeginCmp

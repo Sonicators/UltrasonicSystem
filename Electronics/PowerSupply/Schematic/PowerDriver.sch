@@ -263,17 +263,6 @@ F 3 "" H 5150 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GDS Q2
-U 1 1 55A8BDDA
-P 5150 4350
-F 0 "Q2" H 5070 4300 50  0000 R CNN
-F 1 "IRFB3306" H 5350 4600 50  0000 R CNN
-F 2 "Transistors_TO-220:TO-220_Neutral123_Horizontal_LargePads" H 5350 4450 29  0001 C CNN
-F 3 "" H 5150 4350 60  0000 C CNN
-	1    5150 4350
-	1    0    0    1   
-$EndComp
-$Comp
 L D_Small D4
 U 1 1 55A8CB91
 P 5400 4350
@@ -392,17 +381,6 @@ F 3 "" H 5150 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
-U 1 1 55ADC675
-P 5500 2800
-F 0 "C4" H 5510 2870 50  0000 L CNN
-F 1 "100nF" H 5510 2720 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5500 2800 60  0001 C CNN
-F 3 "" H 5500 2800 60  0000 C CNN
-	1    5500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C1
 U 1 1 55ADC940
 P 5480 1480
@@ -511,18 +489,12 @@ Wire Wire Line
 	5800 2700 5800 2650
 Connection ~ 5800 2650
 Wire Wire Line
-	5500 2700 5500 2650
-Connection ~ 5500 2650
-Wire Wire Line
 	5250 2700 5250 2650
 Connection ~ 5250 2650
 Wire Wire Line
 	4200 3100 5800 3100
 Wire Wire Line
-	5500 3100 5500 2900
-Wire Wire Line
 	5800 3100 5800 2900
-Connection ~ 5500 3100
 $Comp
 L CONN_01X02 J1
 U 1 1 55F15E6C
@@ -943,4 +915,15 @@ $EndComp
 Text GLabel 4200 3100 0    60   Input ~ 0
 PWR-GND
 Connection ~ 5250 3100
+$Comp
+L Q_NMOS_GDS Q2
+U 1 1 55A8BDDA
+P 5150 4350
+F 0 "Q2" H 5070 4300 50  0000 R CNN
+F 1 "IRFB3306" H 5350 4600 50  0000 R CNN
+F 2 "Transistors_TO-220:TO-220_Neutral123_Horizontal_LargePads" H 5350 4450 29  0001 C CNN
+F 3 "" H 5150 4350 60  0000 C CNN
+	1    5150 4350
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,9 @@
 #
+# The wiki is separate form the project files.
+#
+Wiki
+
+#
 # Most people can't use Aspire files
 #
 *.crv3d
